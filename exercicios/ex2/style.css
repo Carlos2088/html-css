@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'love';
+    src: url('Vampire Wars.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-image: linear-gradient(to left, #4E56B0, #8767EB, #679CEB);
+}
+main {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(39, 43, 87, 0.384);
+
+}
+
+h1 {
+ font-family: 'love', Times, sans-serif;
+ color:#38BFF5;
+ text-align: center;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+ color:#38f5ef;
+}
+p {
+    text-align: justify;
+}
+
+
